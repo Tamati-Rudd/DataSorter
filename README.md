@@ -1,5 +1,5 @@
 # DataSorter
-Project that a thread pool on a TCP server to sort randomly generated numeric data for TCP clients.
+Project that uses a thread pool on a TCP server to sort randomly generated numeric data for TCP clients.
 
 A TCP client makes a request to the TCP server, which will have a thread in the pool perform a task for that client, notifying a TaskObserver on progress. When the task is complete, the result is sent to the client.
 - The project is setup in such a way where additional classes could be added to facilitate new tasks.
